@@ -11,3 +11,36 @@ Anand Beck
 9|To Kill a Mockingbird
 10|Domain Driven Design
 57|The Pragmatic Programmer
+77
+57
+Anand Beck
+38
+6|Thin Red Line
+7|Crouching Tiger, Hidden Dragon
+8|Lawrence of Arabia
+9|Office Space
+2|Fellowship of the Ring
+6|1984
+7|Tom Sawyer
+8|Catcher in the Rye
+9|To Kill a Mockingbird
+10|Domain Driven Design
+57|The Pragmatic Programmer
+77
+57
+Anand Beck
+38
+6|Thin Red Line
+7|Crouching Tiger, Hidden Dragon
+8|Lawrence of Arabia
+9|Office Space
+2|Fellowship of the Ring
+6|1984
+7|Tom Sawyer
+8|Catcher in the Rye
+9|To Kill a Mockingbird
+10|Domain Driven Design
+57|The Pragmatic Programmer
+77
+57
+Maurice Okumu

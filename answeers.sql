@@ -6,6 +6,12 @@ select name from member where id =(select member_id from checkout_item where boo
 --select * from member where not exists(
 --select 1 from checkout_item where checkout_item.member_id=member.id);
 
+--Add me as member
+insert into member(id, name) values(85, "Maurice Okumu");
+
+--Add a book
+insert into book(id, title) values(56, "The Pragmatic Programmer");
+
 --not using exists keyword, select the count
 select count(*) from member where(
 select count(*) from checkout_item where checkout_item.member_id=member.id) < 1;
@@ -17,3 +23,4 @@ select count(*) from checkout_item where checkout_item.movie_id=movie.id) < 1;
 --books not checked out
 select * from book where(
 select count(*) from checkout_item where checkout_item.book_id=book.id) < 1;
+

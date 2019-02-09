@@ -38,9 +38,13 @@ select count(*) from checkout_item where checkout_item.book_id = book.id) < 1;
 
 --insert into checkout_item (select id from member where name = "Maurice Okumu",
 --select id from book where title = "The Pragmatic Programmer", null);
-insert into checkout_item(member_id, book_id, movie_id) values(77, 57, null);
+--insert into checkout_item(member_id, book_id, movie_id) values(77, 57, null);
 
 --checkout the book I added and verify
 select name from member where id = (
 select member_id from checkout_item where book_id = (
 select book.id from book where title = "The Pragmatic Programmer"));
+
+select name from member where(
+select count(*) from checkout_item where checkout_item.member_id = member.id) > 1;
+

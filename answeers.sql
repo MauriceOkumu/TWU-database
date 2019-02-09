@@ -46,5 +46,5 @@ select member_id from checkout_item where book_id = (
 select book.id from book where title = "The Pragmatic Programmer"));
 
 select name from member where(
-select count(*) from checkout_item where checkout_item.member_id = member.id) > 1;
+select count(*) from checkout_item where checkout_item.member_id = member.id) > 0;
 
